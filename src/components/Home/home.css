@@ -1,0 +1,312 @@
+body{
+    background-color: #f4e5c3;
+}
+.city-page {
+    width: 100% auto;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+    background-image: url(./back/manora.jpeg) ;
+    background-position: top;
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+.city-page .centerc{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    height: 40rem;
+} 
+.city-page .centerc h1{
+    width: 15%;
+    font-size: 1.3rem;
+    margin-top: 11%;
+    color: black;
+    font-weight: normal;
+    font-style: italic;
+}
+.city-page .centerc h1 span{
+    color: red;
+    font-weight: bold;
+}
+.city-page .centerc h2{
+  color: #197368;
+  border-radius: 1px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  backdrop-filter: blur(5px);
+}
+
+
+.attractions {
+    margin: auto;
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px; 
+    justify-content: center;
+   
+}
+
+.attractions .attraction-card {
+    background-color: #5a765f;
+    overflow: hidden;
+    color: black;
+    width: 100%; 
+    height: 30rem;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: start;
+}
+
+.attractions .attraction-card img{
+    height: 55%;
+}
+.attractions .atr-text{
+    padding: 3%;
+    width: 100% auto; 
+    height: 25% ;
+}
+.attractions .atr-text h3{
+    color: #197368;
+    font-style: italic;
+}
+.attraction-card button{
+    width: 90%;
+    height: 10%;
+    margin-bottom: 2% auto;
+    border-radius: 6px;
+    border: none;
+    background-color: #197368;
+}
+
+
+.attraction-details {
+    background-color: #f4e5c3;
+    padding: 20px;
+    border-radius: 10px;
+   
+  }
+  
+  .slider {
+    position: relative;
+  }
+  .big-image{
+    width: 90%;
+    margin: auto;
+    height: 37rem;
+    overflow: hidden;
+  }
+  .big-image img {
+    border-radius: 10px;
+  }
+  
+  .thumbnails {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .thumbnail {
+    width: 80px; 
+    height: 60px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  
+  .thumbnail:hover {
+    transform: scale(1.1); 
+  }
+  
+  .thumbnail.active {
+    border: 2px solid red; 
+  }
+  
+  .slider-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .slider-buttons button, .buttontab {
+    background-color: #197368;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .slider-buttons .buttontab.activ{
+    background-color: red;
+  }
+  
+  .slider-buttons button:hover {
+    background-color: #d9c291;
+  }
+  .pob strong{
+    font-size: 1.6rem;
+    color: #197368;
+    font-style: italic;
+  }
+  .pob{
+    
+    font-size: 1.3rem;
+    font-style: italic;
+  }
+
+  @media screen and (max-width: 1024px) {
+   
+  .city-page .centerc{
+      height: 20rem;
+  } 
+  .city-page .centerc h1{
+      width: 20%;
+      font-size: 1rem;
+      margin-top: 7.5%;
+      color: black;
+      font-weight: normal;
+      font-style: italic;
+  }
+  .city-page .centerc h1 span{
+      color: red;
+      font-weight: bold;
+  }
+  .city-page .centerc h2{
+    color: #197368;
+    border-radius: 1px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    backdrop-filter: blur(5px);
+  }
+  
+  
+  .attractions {
+      margin: auto;
+      width: 85%;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 25px; 
+      justify-content: center;
+     
+  }
+  
+  .attractions .attraction-card {
+      background-color: rgb(229, 197, 140);
+      overflow: hidden;
+      color: black;
+      width: 100%; 
+      height: 15rem;
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column; 
+      align-items: center; 
+      justify-content: start;
+  }
+  
+  .attractions .attraction-card img{
+      height: 45%;
+  }
+  .attractions .atr-text{
+      padding: 3%;
+      width: 100% auto; 
+      height: 36% ;
+  }
+  .attractions .atr-text h3{
+      color: #197368;
+      font-style: italic;
+      font-size: .8rem;
+  }
+  .attractions .atr-text p{
+    font-style: italic;
+    font-size: .6rem;
+}
+  .attraction-card button{
+      width: 90%;
+      height: 10%;
+      margin-bottom: 2% auto;
+      border-radius: 6px;
+      border: none;
+      background-color: #197368;
+      font-size: .5rem;
+      line-height: 5%;
+  }
+  
+  
+  .attraction-details {
+      background-color: #f4e5c3;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .slider {
+      position: relative;
+    }
+    .big-image{
+      width: 90%;
+      margin: auto;
+      height: 37rem;
+      overflow: hidden;
+    }
+    .big-image img {
+      border-radius: 10px;
+    }
+    
+    .thumbnails {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    
+    .thumbnail {
+      width: 80px; 
+      height: 60px;
+      margin: 0 5px;
+      cursor: pointer;
+      transition: transform 0.3s;
+    }
+    
+    .thumbnail:hover {
+      transform: scale(1.1); 
+    }
+    
+    .thumbnail.active {
+      border: 2px solid red; 
+    }
+    
+
+    .slider-buttons button, .buttontab {
+      background-color: #197368;
+      color: white;
+      border: none;
+      padding: 10px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .slider-buttons .buttontab.activ{
+      background-color: red;
+    }
+    
+    .slider-buttons button:hover {
+      background-color: #d9c291;
+    }
+    .pob strong{
+      font-size: 1rem;
+      color: #197368;
+      font-style: italic;
+      
+    }
+    .pob{
+      font-size: .7rem;
+      font-style: italic;
+    }
+    .attraction-details h2{
+      font-size: 1rem;
+    }
+}

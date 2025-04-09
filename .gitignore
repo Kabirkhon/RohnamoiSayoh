@@ -1,1 +1,24 @@
-te.txt
+# Директория node_modules
+node_modules/
+
+# Директория сборки (если используешь gh-pages)
+build/
+dist/
+
+# Файлы конфигурации IDE
+.idea/
+.vscode/
+
+# Файлы кэша
+*.log
+*.cache
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Персональные настройки
+.env
